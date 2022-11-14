@@ -31,16 +31,9 @@
 
 	#Acesso host
 
-	if($hostOn){
-		define("HOST", "sql302.epizy.com");
-		define("USER", "epiz_28137345");
-		define("PASSWORD", "09gkFW9MzJYA");
-		define("DB", "epiz_28137345_expositor");
-	}else{
-		define("HOST", "localhost");
-		define("USER", "root");
-		define("PASSWORD", "");
-		define("DB", "expositor");
-	}
+	define("HOST", "localhost");
+	define("USER", "root");
+	define("PASSWORD", "");
+	define("DB", "expositor");
 
 ?>
