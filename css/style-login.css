@@ -1,0 +1,37 @@
+/*Geral*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+/*login*/
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: #36393f;
+}
+
+.form-login {
+	background-color: #d87644;
+	width: 300px;
+	height: 100px;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	color: white;
+	font-size: 1.2em;
+}
+
+.form-login input[type="password"]{
+	border: 0px;
+	width: 80%;
+	height: 20px;
+}
